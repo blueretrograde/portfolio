@@ -1,0 +1,82 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header__buttons {
+  color: black;
+}
+
+.header__getintouch {
+  color: darkblue;
+  background-color: aquamarine;
+  border: solid 2px darkblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+
+.main__intro {
+  display: flex;
+  justify-content: space-between;
+}
+.main__intro .main__intro--flow {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.main__myprojects {
+  display: flex;
+  justify-content: center;
+}
+
+.main__photo {
+  height: 400px;
+  width: 350px;
+}
+
+.main__techskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectslide__project {
+  display: flex;
+  flex-direction: column;
+}
+.projectslide__project .projectslide__image {
+  height: 300px;
+  width: 300px;
+}
+.projectslide__project .projectslide_description {
+  border: 50px solid crimson;
+}
+
+.projectslide {
+  display: flex;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkblue;
+}

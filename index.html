@@ -9,104 +9,68 @@
 <link rel="stylesheet" href="main.css">
 <body>
     
-<div>
+<div class="header">
     <h1>Nicholas Vasileiou</h1>
-
-    <ul>Home</ul>
-    <ul>About</ul>
-    <ul>Projects</ul>
-    <ul>Get in Touch</ul>
+    <div class="header__buttons">
+    <a>Home</a>
+    <a>About</a>
+    <a>Projects</a>
+    </div>
+    <button class="header__getintouch">Get in Touch</button>
 </div>
 
-<main>
-    <div>
-        <p>Hey I'm Nicholas Vasileiou</p>
+<main class="main">
+    <div class="main__intro">
+        <div class="main_intro--flow">
+            <h1>Hey I'm Nicholas Vasileiou</h1>
 
-        <h1>A Junior Software Developer based in the UK</h1>
-        <button>Take a look at my work</button>
+            <h1>A Junior Software Developer based in the UK</h1>
+            <button>Take a look at my work</button>
+        </div>
+
+
+        <img class="main__photo" src="images/placeholder.jpeg" alt="just a placeholder image">
     </div>
 
-    <div>
-        <img src="images/placeholder.jpeg" alt="just a placeholder image">
-    </div>
 
-
-    <div>
+    <div class="main__techskills">
         <h2>Technical Skills</h2>
 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero sequi libero saepe quisquam optio, dolores sapiente iusto ducimus, neque, perspiciatis excepturi. Libero commodi perferendis illum officiis numquam, nihil nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem sint temporibus alias totam ab, ipsa dolores deserunt beatae magni at? Laudantium recusandae soluta dicta modi numquam natus nemo accusantium!</p>
-
-    </div>
-
-    <div>
         
         <img src="images/languages.png" alt="image of the code languages">
 
     </div>
 
-    <div>
+    <div class="main__myprojects">
         <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
-
-        <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
-
-        <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
     </div>
 
-    <div>
-        <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
+    <div class="projectslide">
+        <div class="projectslide__project">
+            <img class="projectslide__image" src="images/project.png" alt="just a project placeholder">
+            <p>REACT</p>
+            <h3>Client Project</h3>
+            <p class="projectslide__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
+            <button class="projectslide__code">Code</button>
+            <button class="projectslide__preview">Preview</button>
+        </div>
 
-        <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
-
-        <h3>My Projects</h3>
-        <img src="images/project.png" alt="just a project placeholder">
-        <p>REACT</p>
-        <h3>Client Project</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero enim voluptatem a ducimus perferendis commodi eos rem at deserunt vel autem cumque quo corporis natus labore, minus, deleniti dolorum.</p>
-        <button>Code</button>
-        <button>Preview</button>
     </div>
+
 </main>
 
-<div>
-
+<div class="aboutme">
+    <div class="aboutme__text">
     <h4>About Me</h4>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo sint ratione? Natus aliquid consequuntur accusantium tempora explicabo nostrum perspiciatis pariatur nesciunt illum! Placeat labore, cupiditate ipsa obcaecati eius et? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laborum itaque praesentium nemo illo molestias sequi ut explicabo dolore adipisci voluptatum facilis, eos asperiores veniam, distinctio voluptate. Non, autem totam!</p>
+    </div>
 
     <img src="images/placeholder.jpeg" alt="just a placeholder image">
 </div>
 
-<footer>
+<footer class="footer">
 <h4>example@example.com</h4>
 <h4>All rights reserved, 2022</h4>
 <img src="images/linkplaceholder.png" alt="just a link placeholder">
