@@ -43,6 +43,22 @@ font-style: oblique;
   color: #BAE8E8;
 }
 
+.projectslide__code {
+  background-color: #BAE8E8;
+  width: 90px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  box-shadow: slategray 3px 3px;
+}
+
+.projectslide__preview {
+  background-color: #BAE8E8;
+  width: 90px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  box-shadow: slategray 3px 3px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -144,4 +160,4 @@ font-style: oblique;
 
 .footer__text--email {
   margin-left: 20px;
-}
+}/*# sourceMappingURL=main.css.map */

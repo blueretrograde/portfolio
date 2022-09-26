@@ -49,3 +49,19 @@ background-color: $secondary-color;
 color: $primary-color; 
 }
 
+.projectslide__code {
+    background-color: $primary-color;
+    width: 90px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    box-shadow: slategray 3px 3px;
+}
+
+.projectslide__preview {
+    background-color: $primary-color;
+    width: 90px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    box-shadow: slategray 3px 3px;
+
+}
