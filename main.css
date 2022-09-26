@@ -4,12 +4,43 @@
 
 .header__buttons {
   color: black;
+  font-size: large;
 }
 
 .header__getintouch {
-  color: darkblue;
-  background-color: aquamarine;
-  border: solid 2px darkblue;
+  color: black;
+  background-color: #BAE8E8;
+  border: solid 1px darkblue;
+  border-radius: 5px 5px 5px 5px;
+  width: 100px;
+  height: 30px;
+  box-shadow: slategray 3px 3px;
+}
+
+.main__button {
+  margin-left: 180px;
+  margin-top: -30px;
+  font-size: 15px;
+  background-color: #BAE8E8;
+  border-radius: 5px 5px 5px 5px;
+  width: 200px;
+  height: 30px;
+  box-shadow: slategray 3px 3px;
+}
+
+.main__text {
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+/* .main__techskills--header {
+font-style: oblique;
+} */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272643;
+  color: #BAE8E8;
 }
 
 * {
@@ -21,62 +52,96 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: cadetblue;
+  margin: 30px;
 }
 
 .main__intro {
   display: flex;
   justify-content: space-between;
 }
-.main__intro .main__intro--flow {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
 
-.main__myprojects {
-  display: flex;
+.main__intro .main__text {
+  display: block;
+  width: 400px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   justify-content: center;
+  text-align: center;
 }
 
 .main__photo {
   height: 400px;
   width: 350px;
+  margin: 15px;
 }
 
 .main__techskills {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
 }
 
-.projectslide__project {
-  display: flex;
-  flex-direction: column;
+.main__techskills--text {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.projectslide__project .projectslide__image {
-  height: 300px;
+
+.projectslide__image {
+  height: 250px;
   width: 300px;
 }
-.projectslide__project .projectslide_description {
-  border: 50px solid crimson;
+
+.projectslide__description {
+  width: 300px;
 }
 
 .projectslide {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.projectslide__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px;
 }
 
 .aboutme {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  background-color: aquamarine;
+  background-color: #E3F6F5;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: darkblue;
+.projectsheader {
+  margin-left: 90px;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.aboutme__text {
+  justify-content: center;
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 100px;
+}
+
+.aboutme__text--header {
+  font-size: 30px;
+  margin-bottom: 30px;
+  /* font-style: oblique; */
+}
+
+.footer__text {
+  margin-top: 20px;
+}
+
+.footer__text--email {
+  margin-left: 20px;
 }

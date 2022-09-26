@@ -2,12 +2,50 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+$primary-color: #BAE8E8;
+$secondary-color: #272643;
+
 .header__buttons {
     color: black;
+    font-size: large;
 }
 
 .header__getintouch {
-    color: darkblue;
-    background-color: aquamarine;
-    border: solid 2px darkblue;
+color: black;
+background-color: $primary-color;
+border: solid 1px darkblue;
+border-radius: 5px 5px 5px 5px;
+width: 100px;
+height: 30px;
+box-shadow: slategray 3px 3px;
 }
+
+.main__button {
+margin-left: 180px;
+margin-top: -30px;
+font-size: 15px;
+background-color:$primary-color;
+border-radius: 5px 5px 5px 5px;
+width: 200px;
+height: 30px;
+box-shadow: slategray 3px 3px;
+}
+
+.main__text {
+font-size: 30px;
+margin-left: 80px;
+}
+
+
+/* .main__techskills--header {
+font-style: oblique;
+} */
+
+
+.footer {
+display: flex;
+justify-content: space-between;
+background-color: $secondary-color;
+color: $primary-color; 
+}
+
