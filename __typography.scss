@@ -13,7 +13,6 @@ $secondary-color: #272643;
 .header__getintouch {
 color: black;
 background-color: $primary-color;
-border: solid 1px darkblue;
 border-radius: 5px 5px 5px 5px;
 width: 100px;
 height: 30px;
@@ -53,7 +52,7 @@ color: $primary-color;
     background-color: $primary-color;
     width: 90px;
     border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: slategray 3px 3px;
 }
 
@@ -61,7 +60,19 @@ color: $primary-color;
     background-color: $primary-color;
     width: 90px;
     border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: slategray 3px 3px;
 
 }
+
+.projectslide__code:hover, .projectslide__preview:hover {
+    background-color: $secondary-color;
+    color: #BAE8E8;
+}
+
+.main__button:active, .header__getintouch:active {
+    background-color: $secondary-color;
+    color: #BAE8E8;
+
+}
+

@@ -10,7 +10,6 @@
 .header__getintouch {
   color: black;
   background-color: #BAE8E8;
-  border: solid 1px darkblue;
   border-radius: 5px 5px 5px 5px;
   width: 100px;
   height: 30px;
@@ -47,7 +46,7 @@ font-style: oblique;
   background-color: #BAE8E8;
   width: 90px;
   border-radius: 5px 5px 5px 5px;
-  font-size: 20px;
+  font-size: 15px;
   box-shadow: slategray 3px 3px;
 }
 
@@ -55,8 +54,18 @@ font-style: oblique;
   background-color: #BAE8E8;
   width: 90px;
   border-radius: 5px 5px 5px 5px;
-  font-size: 20px;
+  font-size: 15px;
   box-shadow: slategray 3px 3px;
+}
+
+.projectslide__code:hover, .projectslide__preview:hover {
+  background-color: #272643;
+  color: #BAE8E8;
+}
+
+.main__button:active, .header__getintouch:active {
+  background-color: #272643;
+  color: #BAE8E8;
 }
 
 * {
@@ -69,6 +78,17 @@ font-style: oblique;
   display: flex;
   justify-content: space-between;
   margin: 30px;
+}
+
+.header__button {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.image__arrow {
+  height: 200px;
+  margin-top: 65px;
+  margin-right: 400px;
 }
 
 .main__intro {
@@ -88,7 +108,8 @@ font-style: oblique;
 .main__photo {
   height: 400px;
   width: 350px;
-  margin: 15px;
+  padding: 40px;
+  margin-left: -100px;
 }
 
 .main__techskills {
