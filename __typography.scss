@@ -54,6 +54,7 @@ color: $primary-color;
     border-radius: 5px 5px 5px 5px;
     font-size: 15px;
     box-shadow: slategray 3px 3px;
+    margin-top: 10px;
 }
 
 .projectslide__preview {
@@ -63,6 +64,10 @@ color: $primary-color;
     font-size: 15px;
     box-shadow: slategray 3px 3px;
 
+}
+
+.projectslide__image:hover {
+    opacity: 0.6;
 }
 
 .projectslide__code:hover, .projectslide__preview:hover {
